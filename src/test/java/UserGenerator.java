@@ -13,7 +13,7 @@ public class UserGenerator {
     private final Faker faker = new Faker(Locale.ENGLISH);
     private static RequestSpecification requestSpec = new RequestSpecBuilder()
             .setBaseUri("http://localhost")
-            .setPort(7777)
+            .setPort(9999)
             .setAccept(ContentType.JSON)
             .setContentType(ContentType.JSON)
             .log(LogDetail.ALL)
